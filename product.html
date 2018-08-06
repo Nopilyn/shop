@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Go Shop Bike</title>
+
+
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <!-- endinject -->
+</head>
+<body>
+  <!-- nav -->
+  <nav>
+    <div class="nav-top">
+      <div class="container-fluid">
+        <ul>
+          <li><a href="#">EN</a></li>
+          <li class="right"><a href="#">$USD</a></li>         
+          <li><a href="#">MY ACCOUNT</a></li>
+          <li><a href="#">MY CART</a></li>
+          <li><a href="#">CHECK OUT</a></li>
+        </ul>
+      </div>
+    </div> 
+    <div class="nav-bottom">
+      <div class="container-fluid">
+        <ul>
+          <li class="right"><a href="#">GoShop <span>Bikes</span></a></li>
+          <li><a href="#"  class="active" >HOME</a></li>
+          <li><a href="#">BIKES</a></li>
+          <li><a href="#">CLOTHING</a></li>
+          <li><a href="#">COMPONENTS</a></li>
+          <li><a href="#">ACCESORIES</a></li>
+          <li><a href="#">PROTECTION</a></li>
+          <li><i class="fa fa-search"></i></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav -->
+
+  <section>
+    <div class="title-header">
+      <h2>GOSHOP PRODUCTS</h2>
+      <ul>
+        <li><i class="fa fa-home"></i> <a href="">HOME</a></li>
+        <li><i class="fa fa-arrow-circle-right"></i> <a href="">SHOP</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="product" class="p">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2>FILTER BY</h2>
+          <div class="list-group " id="list">
+            <h4>CATEGORY <hr id="style-hr"></h4>  
+            <a href="">Health & Beauty <span>(75)</span> <i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>  
+            <a href="">Kids Fashion <span>(25)</span> <i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+            <a href="">Trend Watches <span> (10)</span> <i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>  
+            <a href=" ">Women's Apparel <span>(17)</span></a>
+          </div>
+          <div class="list-group" id="list">
+            <h4>COLOR <hr id="style-hr"></h4>  
+            <a href="">WHITE <i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>  
+            <a href="">BLACK <i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>  
+            <a href="">BLUE</a>  
+            <a href="">YELLOW</a>  
+            <a href="">RED</a>
+          </div>
+          <div class="slick" id="list">
+            <div>
+              <h4>FILTER BY PRICE <hr id="style-hr"></h4>
+  
+              <p>Price: </p>
+              <input type="range" value="10">
+            </div>
+          </div>
+          <div class="list-group" id="list">
+            <h4>SIZE <hr id="style-hr"></h4>  
+            <a href=" ">Very Small <span>(75)</span></a>  
+            <a href=" ">Small <span>(25)</span></a>  
+            <a href=" ">Medium <span>(10)</span></a>  
+            <a href=" ">Large <span>(17)</span></a>  
+            <a href=" ">Very Large <span>(21)</span></a> 
+          </div>
+          <div class="box">
+            <p>FREE SHIPING. FREE RETURN</p>
+            <h2>ALL THE TIME</h2>
+          </div>
+        </div>
+        <div class="col-md-9">  
+          <div class="btn-left">
+            <button class="btn"><i class="fa fa-th"></i></button>
+            <button class="btn"><i class="fa fa-list"></i></button>
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">Sort By
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">color</a></li>
+                  <li><a href="#">price</a></li>
+                  <li><a href="#">category</a></li>
+                </ul>
+              </div>
+              <span>SHOW 24 ITEMS TOTAL OF 120 ITEMS</span>
+            </div>
+            <div class="btn-right">
+             <button class="filter-button active" data-filter="all">VIEW ALL</button>
+             <button class="filter-button" data-filter="9">9</button>
+             <button class="filter-button" data-filter="12">12</button>
+             <button class="filter-button" data-filter="24">24</button>
+           </div>
+           <div class="container product-image">
+            <div class="row">
+              <div class="col-md-4 filter 9">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <img src="assets/images/jkt-cewek.jpg" alt="" class="">
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+              <div class="col-md-4 filter 12">
+                <img src="assets/images/model-1.jpg" alt="" class="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+              <div class="col-md-4 filter 24">
+                <img src="assets/images/model-3.jpg" alt="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 filter 9">
+                <img src="assets/images/jkt-cewek.jpg" alt="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+              <div class="col-md-4 filter 12">
+                <img src="assets/images/model-1.jpg" alt="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+              <div class="col-md-4 filter 24">
+                <img src="assets/images/model-3.jpg" alt="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 filter 9">
+                <img src="assets/images/jkt-cewek.jpg" alt="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+              <div class="col-md-4 filter 12">
+                <img src="assets/images/model-1.jpg" alt="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+              <div class="col-md-4 filter 24">
+                <img src="assets/images/model-3.jpg" alt="">
+                <div class="product-overlay">
+                  <button class="btn"><i class="fa fa-search"></i></button>
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-star"></i></button>
+                </div>
+                <div class="info-product">
+                  <p>LYCRA BITZ MEN</p>
+                  <small>Price: <span>$299.00</span></small>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <nav aria-label="Page navigation example" class="pagination_area">
+            <ul class="pagination">
+              <li class="page-item next"><a class="page-link" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item next"><a class="page-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sec-btm" class="section">
+    <div class="content-btm">
+      <h2>SUBSRIBE NEWSLETTER</h2>
+      <p>Sign up for <span>spesial promotion</span></p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span id="span2">Numquam quasi natus laborum alias vel praesentium rem? Eos!</span></p>
+      <div class="form-product">
+        <form action="">
+          <span style="font-weight: bold; font-size: 16px; color: #FFF;"><span>Subcribe</span> to us</span>
+          <input type="text" placeholder="Enter Your Name">
+          <input type="text" placeholder="Enter Your Email Address">
+          <button>SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+      <div class="f-top container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2>GoShop <span>bikes</span></h2>
+            <p style="padding-top: 20px;">Ecommerce PSD Template</p>
+            <ul class="social">
+              <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+              <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+              <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+              <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+              <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>MY ACCOUNT</h4>
+            <ul>
+              <li><a href="">Personal Information</a></li>
+              <li><a href="">Address</a></li>
+              <li><a href="">Discount</a></li>
+              <li><a href="">Order History</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>OUR SERVICE</h4>
+            <ul>
+              <li><a href="">Shipping Return</a></li>
+              <li><a href="">International Shipping</a></li>
+              <li><a href="">Secure Shopping</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Affliates</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Contact Us</h4>
+            <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque</p>
+            <input type="text" placeholder="Your Email.">
+            <i class="fa fa-envelope-o" style="background:  #ff3300;"></i>
+          </div>
+        </div>
+        <hr>
+        <div class="f-top-2">
+          <ul>
+            <li><a href="">ATOS</a></li>
+            <li><a href="">VERISIGN</a></li>
+            <li><a href="">VISA</a></li>
+            <li><a href="">DISCOVER</a></li>
+            <li><a href="">PAYPAL</a></li>
+            <li><a href="">PAYONEER</a></li>
+            <li><a href="">CITY BANK</a></li>
+            <li><a href="">SKILL</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="f-bottom">
+        <p> Copyright <span> GoShop</span> by Youwes. All Right Reserved 2015</p>
+      </div>
+    </footer>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <!-- inject:js -->
+  <script src="assets/scripts/libraries.js"></script>
+  <script src="assets/scripts/app.js"></script>
+  <!-- endinject -->
+</body>
+</html>
